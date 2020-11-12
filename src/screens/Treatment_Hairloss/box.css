@@ -1,0 +1,299 @@
+.section-title {
+  font-family: "Maven Pro", Helvetica, Arial, sans-serif;
+}
+
+.plan-box {
+  border: 2px #999 solid;
+}
+
+.plan-row .plan-box {
+  padding: 25px 25px 25px 25px;
+  background-color: #fff;
+  border-radius: 12px;
+}
+
+.plan-row .plan-box p {
+  font-size: 18px;
+  color: #474747;
+}
+
+.plan-intro {
+  padding: 0 20px 0 20px;
+  margin: 0;
+}
+
+.plan-intro .plan-badge {
+  padding: 0 20px 0 20px;
+  margin: 0;
+}
+
+.plan-intro h4 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  padding: 0 0 10px 0;
+  margin: 0;
+}
+
+.plan-badge h4 {
+  padding: 0 20px 10px 20px;
+}
+
+.plan-intro h3 {
+  font-family: "Maven Pro", Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  padding: 0 0 10px 0;
+  margin: 0;
+  color: #001246;
+}
+
+.plan-art {
+  margin: 0;
+  padding: 0;
+}
+
+.plan-art img {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  width: auto;
+  max-height: 170px;
+  border: 0;
+}
+
+.plan-summary {
+  line-height: 19px;
+}
+
+.plan-desc {
+  color: #666;
+  font-size: 16px;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 19px !important;
+}
+
+.plan-details {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: block;
+  line-height: 22px;
+}
+
+.plan-title h3 {
+  font-family: "Maven Pro", Helvetica, Arial, sans-serif;
+  font-size: 26px;
+  line-height: 29px;
+  padding: 10px 0;
+  margin: 0;
+  color: #001246;
+}
+
+.plan-details h3 {
+  font-family: "Maven Pro", Helvetica, Arial, sans-serif;
+  font-size: 26px;
+  line-height: 29px;
+  padding: 10px 0;
+  margin: 0;
+  color: #001246;
+}
+
+.plan-details p {
+  color: #000 !important;
+  font-size: 16px;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 22px;
+}
+
+.plan-details hr {
+  padding: 0;
+  margin: 8px auto;
+  max-width: 180px;
+  text-align: center;
+  border: 1px #666 solid;
+}
+
+.plan-products {
+  width: 100%;
+  padding: 0;
+  margin: 0 0 10px 0;
+}
+
+.plan-products table, .plan-products tr, .plan-products td {
+  margin: 0;
+  padding: 0;
+}
+
+.products-padding {
+  padding-top: 28px;
+}
+
+.btn-plan {
+  font-size: 16px;
+  border-radius: 17px;
+  letter-spacing: 1px;
+  padding: 10px 20px;
+  width: 100%;
+  max-width: 360px;
+}
+
+h4.plan-col-space {
+  padding: 8px 0;
+}
+
+h3.plan-col-space {
+  padding: 10px 0;
+}
+
+.plan-p-spacing {
+  padding: 11px 0;
+}
+
+@media screen and (max-width: 992px) {
+  .plan-intro {
+    padding: 0;
+  }
+  .plan-spacer {
+    padding-bottom: 25px;
+    max-width: 480px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .plan-intro h3 {
+    font-family: "Maven Pro", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+  }
+  .plan-intro h4 {
+    font-size: 12px;
+    line-height: 13px;
+  }
+  .plan-art img {
+    max-height: 150px;
+  }
+  .plan-p-spacing {
+    padding: 0;
+  }
+  /* mobile display */
+  .plan-art-title-row {
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    display: table;
+  }
+  .plan-art {
+    float: left;
+    width: 40%;
+    height: 100px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: right;
+  }
+  .plan-title {
+    float: left;
+    clear: none;
+    width: 60%;
+    height: 100px;
+    line-height: 17px;
+    text-align: left;
+  }
+  .plan-art img {
+    width: 100%;
+    max-width: 100px;
+  }
+  .plan-title {
+    padding: 15px 0 0 0;
+  }
+  .plan-title h3 {
+    clear: none;
+    font-size: 24px;
+    line-height: 23px;
+  }
+  .plan-summary {
+    clear: both;
+  }
+  .plan-summary {
+    line-height: 15px;
+  }
+  .plan-desc {
+    font-size: 12px;
+    line-height: 14px !important;
+  }
+  .plan-details, .plan-details p {
+    font-size: 12px !important;
+    line-height: 14px;
+  }
+  .plan-details h3 {
+    font-size: 22px;
+  }
+  .products-padding {
+    padding-top: 0;
+  }
+  h4.plan-col-space {
+    padding-top: 0;
+  }
+}
+
+/* most popular ribbon */
+
+.ribbon {
+  width: 125px;
+  height: 125px;
+  overflow: hidden;
+  position: absolute;
+}
+
+.ribbon::before, .ribbon::after {
+  position: absolute;
+  z-index: -1;
+  content: "";
+  display: block;
+  border: 5px solid #2980b9;
+}
+
+.ribbon span {
+  position: absolute;
+  display: block;
+  width: 225px;
+  padding: 8px 0;
+  background-color: #001246;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  font: 700 11px/1 "Lato", sans-serif;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* top right*/
+
+.ribbon-top-right {
+  /*top: -10px;
+right: -10px;*/
+  top: 0;
+  right: 15px;
+}
+
+.ribbon-top-right::before, .ribbon-top-right::after {
+  border-top-color: transparent;
+  border-right-color: transparent;
+}
+
+.ribbon-top-right::before {
+  top: 0;
+  left: 0;
+}
+
+.ribbon-top-right::after {
+  bottom: 0;
+  right: 0;
+}
+
+.ribbon-top-right span {
+  left: -25px;
+  top: 25px;
+  transform: rotate(45deg);
+}

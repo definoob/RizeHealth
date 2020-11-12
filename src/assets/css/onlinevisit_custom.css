@@ -1,0 +1,190 @@
+@media (min-width: 768px) {
+  div.vertical-steps.steps.box-shadow.rounded-xlg {
+    background-image: url("../images/bg-steps-blue-gradient.png");
+  }
+}
+.root, .wrapper {
+  margin: 0 !important; padding: 0 !important;
+}
+
+/* Start Your Free Online Visit! */
+.form-headline-container {
+  margin: 30px 0;
+  padding: 0;
+}
+.form-sub-headline {
+  margin: 0;
+  padding: 0;
+  font-family: 'Daxline Pro','Maven Pro', Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 27px;
+  text-align: center;
+  color: #001246;
+}
+.form-headline {
+  margin: 0;
+  padding: 0 10px 25px 0;
+  font-family: 'Daxline Pro','Maven Pro', Arial, sans-serif;
+  font-size: 40px;
+  line-height: 41px;
+  text-align: left;
+  color: #001246;
+}
+div.form-group.text-center span.btn.btn-sm.btn-primary1 {
+  border: 0;
+  font-size: 16px;
+  font-family: 'Daxline Pro','Maven Pro', Arial, sans-serif;
+}
+
+.headline-winky {
+  width: auto;
+  height: 16px;
+  border: 0;
+  padding: 0 10px 0 0;
+}
+
+/* Let's get started */
+.form-tag-line {
+  text-align: center;
+  font-family: 'Lato', Helvetica, sans-serif !important;
+}
+
+/* clipboard pieces */
+.pb-5, .py-5 {
+    padding: 20px !important;
+}
+.clipboard-container {
+  margin: 0 0 50px 0 !important;
+  padding: 0 !important;
+  width: 100%;
+  max-width: 775px;
+  height: 100%;
+  background-image: url("../images/clipboard-bg-775x1.png");
+  background-repeat: repeat;
+  background-size: 100% 1px;
+}
+.clipboard-container img {
+  width: 100%;
+  border: 0;
+}
+.clipboard-left, .clipboard-right {
+  margin: 0;
+  padding: 0;
+  width: 8%;
+  max-width: 62px;
+  float: left;
+  height: 100%;
+}
+.clipboard-left img, .clipboard-right img {
+  display: block;
+  width: 100%;
+  max-width: 62px;
+  height: 100%;
+  border: 0;
+}
+.clipboard-content {
+  margin: 0;
+  padding: 0;
+  float: left;
+  width:84%;
+  max-width: 651px;
+  height: 100%;
+  /* border: 1px red dashed;  */
+  /*min-height: 827px;*/
+}
+.max-600 {
+   margin: 0 auto;
+}
+@media (max-width: 1198px) {
+  .max-600 {
+     margin: auto 15px;
+  }
+}
+.clipboard-max-600 {
+  /* border: 1px red dashed;*/
+  max-width: 600px !important;
+  width: 100% !important;
+}
+
+/* headline */
+p.h1.text-blue {
+  font-family: 'Daxline Pro','Maven Pro', Arial, sans-serif;
+}
+
+/* steps styles */
+div.vertical-steps.steps.box-shadow.rounded-xlg {
+  background-color: #fff;
+}
+@media screen and (max-width: 576px) {
+  div.vertical-steps.steps.box-shadow.rounded-xlg {
+    padding: 15px 10px;
+  }
+}
+
+/* Terms & Conditions, etc links */
+.check-item-name a {
+  /* color: #001246; */ /* blue */
+  color: #002693;
+}
+
+/* form button */
+.form-group.mb-5.text-center span.btn.btn-sm.btn-secondary {
+  border-radius: 15px;
+}
+
+/* checkbox */
+label.check-item span.checkmark {
+  border-color: #000;
+}
+
+.online-visit-alert {
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Lato", Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.error-msg {
+  color: red;
+  margin: 0;
+  padding: 10px 0 5px 0;
+}
+
+.searchDown {
+  padding: 20px;
+  margin: 0;
+  padding: 0;
+  color: #777;
+  background-color: #eee !important;
+  border-radius: 0 0 5px 5px;
+  border-left: 1px #ccc solid;
+  border-right: 1px #ccc solid;
+  border-bottom: 1px #ccc solid;
+  box-shadow: 3px 5px 7px #ddd;
+  list-style: none;
+  cursor: pointer;
+}
+
+.searchDown li {
+  padding: 5px 20px;
+}
+
+@media screen and (max-width: 576px) {
+  .searchDown li {
+    padding: 5px 10px;
+  }
+}
+
+.searchDown li:hover {
+  /*background-color: #cfebdf; */
+  /* 35% #77c8a5 */
+  background-color: #ccd0da;
+  /* 20% #001246 */
+  color: #000;
+}
+
+.searchDown li:last-child:hover {
+  border-radius: 0 0 5px 5px;
+}
